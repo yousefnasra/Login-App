@@ -1,0 +1,53 @@
+:root {
+    --Main-bg: hsl(202, 27%, 19%);
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    background-color: var(--Main-bg);
+}
+
+#home {
+    height: 75vh;
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+input {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+input::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: rgb(182, 182, 182);
+}
+
+nav button:hover .nav-link {
+    color: white;
+}
